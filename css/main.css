@@ -1875,7 +1875,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #339891;
+  background: #0112df;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2573,7 +2573,7 @@ ul.breadcrumb li+li:last-child {
   overflow: hidden;
   padding: 0;
   width: 240px;
-  background: #fff;
+  background: rgba(255,255,255,0.7);
   box-shadow: initial;
   border-radius: initial;
 }
@@ -2619,7 +2619,7 @@ ul.breadcrumb li+li:last-child {
   box-sizing: border-box;
   padding: 40px;
   width: calc(100% - 252px);
-  background: #fff;
+  background: rgba(255,255,255,0.7);
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
@@ -2868,7 +2868,6 @@ ul.breadcrumb li+li:last-child {
   box-sizing: border-box;
   width: 240px;
   color: #555;
-  background: #fff;
   box-shadow: initial;
   border-radius: initial;
   opacity: 0;
@@ -3012,7 +3011,20 @@ ul.breadcrumb li+li:last-child {
     text-align: justify;
   }
 }
+.post {
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.site-meta {
+  background: $pink;
+}
 body {
   background: url("/images/62423081_p0_master1200.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
 }
