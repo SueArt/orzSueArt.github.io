@@ -103,19 +103,19 @@
 
 
 
-  <meta name="description" content="[LuoGu]P5018 对称二叉树 Solution本题作为PJ T4其实还是历届以来较简单的 题目相信大家已经读过了，就是让我们找出一棵二叉树中具有最多结点的对称子树。 但肯定会有很多人审题不清楚而导致没有弄清对称子树的概念（可能是时间也不够扒） 下面就来给大家讲（胡）解（扯）一下  在上图中，我们可以看出，子树既可以是根节点和叶节点组成，也可以是一个节点， 如图中绿色笔圈出的就是一棵树。在">
+  <meta name="description" content="[LuoGu]P5018 对称二叉树 Solution本题作为PJ T4其实还是历届以来较简单的 题目相信大家已经读过了，就是让我们找出一棵二叉树中具有最多结点的对称子树。 但肯定会有很多人审题不清楚而导致没有弄清对称子树的概念（可能是时间也不够扒） 下面就来给大家讲（胡）解（扯）一下  在上图中，我们可以看出，子树既可以是根节点和叶节点组成，也可以是一个节点， 如图中绿色笔圈出的就是一棵树。在比">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[LuoGu]P5018 对称二叉树">
 <meta property="og:url" content="https://SueArt.github.io/2019/01/24/LuoGu-P5018-对称二叉树/index.html">
 <meta property="og:site_name" content="SueArt Oier&#39;s Blog">
-<meta property="og:description" content="[LuoGu]P5018 对称二叉树 Solution本题作为PJ T4其实还是历届以来较简单的 题目相信大家已经读过了，就是让我们找出一棵二叉树中具有最多结点的对称子树。 但肯定会有很多人审题不清楚而导致没有弄清对称子树的概念（可能是时间也不够扒） 下面就来给大家讲（胡）解（扯）一下  在上图中，我们可以看出，子树既可以是根节点和叶节点组成，也可以是一个节点， 如图中绿色笔圈出的就是一棵树。在">
+<meta property="og:description" content="[LuoGu]P5018 对称二叉树 Solution本题作为PJ T4其实还是历届以来较简单的 题目相信大家已经读过了，就是让我们找出一棵二叉树中具有最多结点的对称子树。 但肯定会有很多人审题不清楚而导致没有弄清对称子树的概念（可能是时间也不够扒） 下面就来给大家讲（胡）解（扯）一下  在上图中，我们可以看出，子树既可以是根节点和叶节点组成，也可以是一个节点， 如图中绿色笔圈出的就是一棵树。在比">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://m.qpic.cn/psb?/V14Yb5Kt2HACJu/.b2aB17A5k7j6tb9KMOF3AMUAjrOD8x*nWmaMPPsSA8!/b/dFIBAAAAAAAA&bo=IgJcAgAAAAARF14!&rf=viewer_4">
 <meta property="og:image" content="http://m.qpic.cn/psb?/V14Yb5Kt2HACJu/bW40lpV6p3h*5zIDRykg2mrji.L0WqBy3E15V71104I!/b/dFIBAAAAAAAA&bo=lAJYAgAAAAARF.w!&rf=viewer_4">
-<meta property="og:updated_time" content="2019-01-24T06:55:48.617Z">
+<meta property="og:updated_time" content="2019-01-24T06:58:06.269Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[LuoGu]P5018 对称二叉树">
-<meta name="twitter:description" content="[LuoGu]P5018 对称二叉树 Solution本题作为PJ T4其实还是历届以来较简单的 题目相信大家已经读过了，就是让我们找出一棵二叉树中具有最多结点的对称子树。 但肯定会有很多人审题不清楚而导致没有弄清对称子树的概念（可能是时间也不够扒） 下面就来给大家讲（胡）解（扯）一下  在上图中，我们可以看出，子树既可以是根节点和叶节点组成，也可以是一个节点， 如图中绿色笔圈出的就是一棵树。在">
+<meta name="twitter:description" content="[LuoGu]P5018 对称二叉树 Solution本题作为PJ T4其实还是历届以来较简单的 题目相信大家已经读过了，就是让我们找出一棵二叉树中具有最多结点的对称子树。 但肯定会有很多人审题不清楚而导致没有弄清对称子树的概念（可能是时间也不够扒） 下面就来给大家讲（胡）解（扯）一下  在上图中，我们可以看出，子树既可以是根节点和叶节点组成，也可以是一个节点， 如图中绿色笔圈出的就是一棵树。在比">
 <meta name="twitter:image" content="http://m.qpic.cn/psb?/V14Yb5Kt2HACJu/.b2aB17A5k7j6tb9KMOF3AMUAjrOD8x*nWmaMPPsSA8!/b/dFIBAAAAAAAA&bo=IgJcAgAAAAARF14!&rf=viewer_4">
 
 
@@ -381,7 +381,7 @@
                 
               
 
-              <time title="创建时间：2019-01-24 14:18:34 / 修改时间：14:55:48" itemprop="dateCreated datePublished" datetime="2019-01-24T14:18:34+08:00">2019-01-24</time>
+              <time title="创建时间：2019-01-24 14:18:34 / 修改时间：14:58:06" itemprop="dateCreated datePublished" datetime="2019-01-24T14:18:34+08:00">2019-01-24</time>
             
 
             
@@ -437,8 +437,7 @@
       
 
       
-        <a id="more"></a>
-<p><a href="https://www.luogu.org/problemnew/show/P5018" target="_blank" rel="noopener">[LuoGu]P5018 对称二叉树</a></p>
+        <p><a href="https://www.luogu.org/problemnew/show/P5018" target="_blank" rel="noopener">[LuoGu]P5018 对称二叉树</a></p>
 <h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><p>本题作为PJ T4其实还是历届以来较简单的</p>
 <p>题目相信大家已经读过了，就是让我们找出一棵二叉树中具有最多结点的对称子树。</p>
 <p>但肯定会有很多人审题不清楚而导致没有弄清对称子树的概念（可能是时间也不够扒）</p>
@@ -484,6 +483,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/01/24/LuoGu-P5116-USACO18DEC-Mixing-Milk/" rel="prev" title="[LuoGu]P5116 [USACO18DEC]Mixing Milk">
+                [LuoGu]P5116 [USACO18DEC]Mixing Milk <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -552,7 +567,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -685,7 +700,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共885字</span>
+  <span class="post-count">博客全站共1.1k字</span>
 </div>
 
         

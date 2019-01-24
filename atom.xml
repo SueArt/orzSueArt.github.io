@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://SueArt.github.io/"/>
-  <updated>2019-01-24T06:55:48.617Z</updated>
+  <updated>2019-01-24T09:25:04.270Z</updated>
   <id>https://SueArt.github.io/</id>
   
   <author>
@@ -17,19 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>[LuoGu]P5018 对称二叉树</title>
-    <link href="https://SueArt.github.io/2019/01/24/LuoGu-P5018-%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
-    <id>https://SueArt.github.io/2019/01/24/LuoGu-P5018-对称二叉树/</id>
-    <published>2019-01-24T06:18:34.000Z</published>
-    <updated>2019-01-24T06:55:48.617Z</updated>
+    <title>[LuoGu]P5116 [USACO18DEC]Mixing Milk</title>
+    <link href="https://SueArt.github.io/2019/01/24/LuoGu-P5116-USACO18DEC-Mixing-Milk/"/>
+    <id>https://SueArt.github.io/2019/01/24/LuoGu-P5116-USACO18DEC-Mixing-Milk/</id>
+    <published>2019-01-24T09:23:13.000Z</published>
+    <updated>2019-01-24T09:25:04.270Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problemnew/show/P5018&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[LuoGu]P5018 对称二叉树&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=
+        &lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problemnew/show/P5116&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[LuoGu]P5116 [USACO18DEC]Mixing Milk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;看到题解
+      
+    
+    </summary>
+    
+      <category term="题解" scheme="https://SueArt.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[LuoGu]P5018 对称二叉树</title>
+    <link href="https://SueArt.github.io/2019/01/24/LuoGu-P5018-%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    <id>https://SueArt.github.io/2019/01/24/LuoGu-P5018-对称二叉树/</id>
+    <published>2019-01-24T06:18:34.000Z</published>
+    <updated>2019-01-24T06:58:06.269Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problemnew/show/P5018&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[LuoGu]P5018 对称二叉树&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Solution&quot;&gt;&lt;a href
       
     
     </summary>
