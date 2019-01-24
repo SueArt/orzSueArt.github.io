@@ -377,7 +377,7 @@
                 
               
 
-              <time title="创建时间：2019-01-24 14:18:34 / 修改时间：14:46:41" itemprop="dateCreated datePublished" datetime="2019-01-24T14:18:34+08:00">2019-01-24</time>
+              <time title="创建时间：2019-01-24 14:18:34 / 修改时间：14:55:48" itemprop="dateCreated datePublished" datetime="2019-01-24T14:18:34+08:00">2019-01-24</time>
             
 
             
@@ -435,27 +435,26 @@
       
         
           
-            <h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><p>本题作为PJ T4其实还是历届以来较简单的</p>
-<p>题目相信大家已经读过了，就是让我们找出一棵二叉树中具有最多结点的对称子树。</p>
-<p>但肯定会有很多人审题不清楚而导致没有弄清对称子树的概念（可能是时间也不够扒）</p>
-<p>下面就来给大家讲（胡）解（扯）一下</p>
-<p><img src="http://m.qpic.cn/psb?/V14Yb5Kt2HACJu/.b2aB17A5k7j6tb9KMOF3AMUAjrOD8x*nWmaMPPsSA8!/b/dFIBAAAAAAAA&amp;bo=IgJcAgAAAAARF14!&amp;rf=viewer_4" alt=""></p>
-<p>在上图中，我们可以看出，子树既可以是根节点和叶节点组成，也可以是一个节点，</p>
-<p>如图中绿色笔圈出的就是一棵树。在比赛中，有很多选手将对称子树理解成：一棵树</p>
-<p>中的一部分为对称（如图中蓝色笔和粉色笔圈出的）。但实际上这棵树的正解确是由</p>
-<p>红笔圈出的子树！！可见题意中的对称二叉子树是必须由一个根节点一直到树的最底</p>
-<p>部所组成的树。</p>
-<h3 id="main-idea"><a href="#main-idea" class="headerlink" title="main idea"></a>main idea</h3><p> 1.枚举根节点，判断其左右两个孩子节点 1–&gt;是否存在 2–&gt;是否相等<br> 若相等，则一直递归左右两个孩子节点的左右两个孩子节点重复上述判<br> 断。</p>
-<p> 2.判断好对称二叉树后，就可以愉快地计算以该节点为根节点的对称二<br> 叉子树的节点数量并取最优值了。</p>
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;bits/stdc++.h&gt;</span><br><span class="line">#define ll long long</span><br><span class="line">const int maxn=2000000;</span><br><span class="line">using namespace std;</span><br><span class="line">ll a[maxn],l[maxn],r[maxn],ans,n,i;  </span><br><span class="line">//a数组存节点数值，l[i]表示编号为i的节点的左孩子的编号，l[i]表示编号为i的节点的右孩子的编号，</span><br><span class="line">bool f;  //全局变量f判断是否为对称二叉子树</span><br><span class="line">inline ll cnt(ll x) //计算以x为根节点的对称二叉子树的节点数  *递归</span><br><span class="line">&#123;</span><br><span class="line">	ll sum=0;</span><br><span class="line">	if(l[x]!=-1)sum+=cnt(l[x]);</span><br><span class="line">	if(r[x]!=-1)sum+=cnt(r[x]);</span><br><span class="line">	return sum+1;  //别忘了根节点！！</span><br><span class="line">&#125;</span><br><span class="line">void work(ll xx,ll yy)  //判断对称二叉子树的函数   *递归</span><br><span class="line">&#123;</span><br><span class="line">	if(xx==-1&amp;&amp;yy==-1)return ;  //如果已经到底了，结束</span><br><span class="line">	if(xx==-1||yy==-1||a[xx]!=a[yy])&#123; f=0;return ;&#125; //不对称</span><br><span class="line">	work(l[xx],r[yy]); </span><br><span class="line">	work(r[xx],l[yy]);	//这里代码后插图另作解释QWQ</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	cin&gt;&gt;n; //读入n</span><br><span class="line">	for(i=1;i&lt;=n;++i)scanf(&quot;%lld&quot;,&amp;a[i]); //读入每个节点的值</span><br><span class="line">	for(i=1;i&lt;=n;++i)</span><br><span class="line">	scanf(&quot;%lld%lld&quot;,&amp;l[i],&amp;r[i]);  //读入每个节点的左右孩子节点编号</span><br><span class="line">	ans=1;      //至少有一个对称（一个节点）</span><br><span class="line">	for(i=1;i&lt;=n;++i)  //枚举对称二叉子树的根节点</span><br><span class="line">	&#123;</span><br><span class="line">		if(l[i]!=-1&amp;&amp;r[i]!=-1&amp;&amp;a[l[i]]==a[r[i]])</span><br><span class="line">		//这里可以过滤很多不必要的枚举                                                </span><br><span class="line">		&#123;</span><br><span class="line">			f=1;                  //先默认为是对称二叉子树</span><br><span class="line">			work(l[i],r[i]);      //开始递归判断</span><br><span class="line">			if(f==1)ans=max(ans,cnt(i));  </span><br><span class="line">            //如果是对称二叉子树就可以计算节点取最大值了</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	cout&lt;&lt;ans&lt;&lt;endl;  //完美输出</span><br><span class="line"></span><br><span class="line">    return 0;   //华丽丽结束  （撒花~~~）</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="http://m.qpic.cn/psb?/V14Yb5Kt2HACJu/bW40lpV6p3h*5zIDRykg2mrji.L0WqBy3E15V71104I!/b/dFIBAAAAAAAA&amp;bo=lAJYAgAAAAARF.w!&amp;rf=viewer_4" alt=""></p>
-<p>上面代码中的可能有些犇犇不理解，这里再解释一下<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">work(l[xx],r[yy]); </span><br><span class="line">work(r[xx],l[yy]);</span><br></pre></td></tr></table></figure></p>
-<p>从图中可以看出，判断对称二叉子树时，应该是镜面对称的—-&gt;最左和最右的</p>
-<p>如图红色的对红色，紫色的对紫色，所以就得到了上述代码</p>
-<p>希望您看懂后能自己打出完美的代码！</p>
-<p>再见。</p>
+            <p>
+              
+[LuoGu]P5018 对称二叉树
+Solution本题作为PJ T4其实还是历届以来较简单的
+题目相信大家已经读过了，就是让我们找出一棵二叉树中具有最多结点的对称子树。
+但肯定会有很多人审题不清楚而导致没有弄清对称子树的概念（可能是时间也不够扒）
+下面就来给大家讲（胡）解（扯）一下
 
+在上图中
+              ...
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/01/24/LuoGu-P5018-对称二叉树/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -656,7 +655,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共882字</span>
+  <span class="post-count">博客全站共885字</span>
 </div>
 
         

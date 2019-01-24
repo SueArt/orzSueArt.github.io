@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://SueArt.github.io/"/>
-  <updated>2019-01-24T06:46:41.647Z</updated>
+  <updated>2019-01-24T06:55:48.617Z</updated>
   <id>https://SueArt.github.io/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="https://SueArt.github.io/2019/01/24/LuoGu-P5018-%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
     <id>https://SueArt.github.io/2019/01/24/LuoGu-P5018-对称二叉树/</id>
     <published>2019-01-24T06:18:34.000Z</published>
-    <updated>2019-01-24T06:46:41.647Z</updated>
+    <updated>2019-01-24T06:55:48.617Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;Solution&quot;&gt;&lt;a href=&quot;#Solution&quot; class=&quot;headerlink&quot; title=&quot;Solution&quot;&gt;&lt;/a&gt;Solution&lt;/h2&gt;&lt;p&gt;本题作为PJ T4其实还是历届以来较简单的&lt;/p&gt;
-&lt;p&gt;题目相信大家已经读过了，就是让我们
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problemnew/show/P5018&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[LuoGu]P5018 对称二叉树&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=
       
     
     </summary>
