@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://SueArt.github.io/"/>
-  <updated>2019-01-24T09:25:04.270Z</updated>
+  <updated>2019-01-24T09:31:04.100Z</updated>
   <id>https://SueArt.github.io/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>[LuoGu]CF387A [George and Sleep]</title>
+    <link href="https://SueArt.github.io/2019/01/24/LuoGu-CF387A-George-and-Sleep/"/>
+    <id>https://SueArt.github.io/2019/01/24/LuoGu-CF387A-George-and-Sleep/</id>
+    <published>2019-01-24T09:28:18.000Z</published>
+    <updated>2019-01-24T09:31:04.100Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problemnew/show/CF387A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[LuoGu]CF387A [George and Sleep]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一道简单的模拟
+      
+    
+    </summary>
+    
+      <category term="题解" scheme="https://SueArt.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>[LuoGu]P5116 [USACO18DEC]Mixing Milk</title>
     <link href="https://SueArt.github.io/2019/01/24/LuoGu-P5116-USACO18DEC-Mixing-Milk/"/>
     <id>https://SueArt.github.io/2019/01/24/LuoGu-P5116-USACO18DEC-Mixing-Milk/</id>
     <published>2019-01-24T09:23:13.000Z</published>
-    <updated>2019-01-24T09:25:04.270Z</updated>
+    <updated>2019-01-24T09:26:05.811Z</updated>
     
     <summary type="html">
     
