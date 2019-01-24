@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://SueArt.github.io/"/>
-  <updated>2019-01-22T14:32:55.913Z</updated>
+  <updated>2019-01-24T06:42:11.811Z</updated>
   <id>https://SueArt.github.io/</id>
   
   <author>
@@ -17,36 +17,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>text</title>
-    <link href="https://SueArt.github.io/2019/01/22/text/"/>
-    <id>https://SueArt.github.io/2019/01/22/text/</id>
-    <published>2019-01-22T14:25:24.000Z</published>
-    <updated>2019-01-22T14:32:55.913Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="text" scheme="https://SueArt.github.io/categories/text/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://SueArt.github.io/2019/01/20/hello-world/"/>
-    <id>https://SueArt.github.io/2019/01/20/hello-world/</id>
-    <published>2019-01-20T03:14:15.297Z</published>
-    <updated>2019-01-20T03:27:30.074Z</updated>
+    <title>[LuoGu]P5018 对称二叉树</title>
+    <link href="https://SueArt.github.io/2019/01/24/LuoGu-P5018-%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    <id>https://SueArt.github.io/2019/01/24/LuoGu-P5018-对称二叉树/</id>
+    <published>2019-01-24T06:18:34.000Z</published>
+    <updated>2019-01-24T06:42:11.811Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h2 id=&quot;Solution&quot;&gt;&lt;a href=&quot;#Solution&quot; class=&quot;headerlink&quot; title=&quot;Solution&quot;&gt;&lt;/a&gt;Solution&lt;/h2&gt;&lt;p&gt;本题作为PJ T4其实还是历届以来较简单的&lt;/p&gt;
+&lt;p&gt;题目相信大家已经读过了，就是让我们
       
     
     </summary>
+    
+      <category term="题解" scheme="https://SueArt.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
   </entry>
