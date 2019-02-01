@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[[LuoGu]P5116 [USACO18DEC]Mixing Milk]]></title>
-    <url>%2F2019%2F02%2F01%2FLuoGu-P5116-USACO18DEC-Mixing-Milk-1%2F</url>
+    <url>%2F2019%2F02%2F01%2FLuoGu-P5116-USACO18DEC-Mixing-Milk%2F</url>
     <content type="text"><![CDATA[[LuoGu]P5116 [USACO18DEC]Mixing Milk 看到题解中没有dfs的，这里写一篇dfs的题解其实没必要这么麻烦，就算是一次dfs练习吧 Code1234567891011121314151617#include&lt;bits/stdc++.h&gt;#define ll long longusing namespace std;int A,B,C,a,b,c;inline void dfs(int a,int b,int c,int time)&#123; if(!time)&#123;printf("%d\n%d\n%d\n",a,b,c);return ;&#125; if(time%3==1)dfs(max(0,a-min(a,B-b)),min(b+a,B),c,time-1); //a倒给b else if(time%3==0)dfs(a,max(0,b-min(b,C-c)),min(c+b,C),time-1); //b倒给c else if(time%3==2)dfs(min(a+c,A),b,max(0,c-min(c,A-a)),time-1); //c倒给a&#125;int main()&#123; scanf("%d%d%d%d%d%d",&amp;A,&amp;a,&amp;B,&amp;b,&amp;C,&amp;c); dfs(a,b,c,100); return 0;&#125; 上述代码还可以优化，这里就懒得写了qwq]]></content>
       <categories>
         <category>题解</category>
@@ -20,19 +20,6 @@
     <title><![CDATA[[LuoGu]CF387A [George and Sleep]]]></title>
     <url>%2F2019%2F02%2F01%2FLuoGu-CF387A-George-and-Sleep%2F</url>
     <content type="text"><![CDATA[[LuoGu]CF387A [George and Sleep] 一道简单的模拟题,结果被#5卡了15分钟 Solution1.按字符串读入s和t，再将’:’两边分别处理进行计算 2.判断输出即可 Code1234567891011121314151617181920212223242526272829303132#include&lt;bits/stdc++.h&gt;#define ll long longusing namespace std;char s[5],t[5];int ls,lt,rs,rt,asl,asr;void doit()&#123; cin&gt;&gt;s&gt;&gt;t; ls=(s[0]-'0')*10+(s[1]-'0'); *分别处理读入字符串 rs=(s[3]-'0')*10+(s[4]-'0'); lt=(t[0]-'0')*10+(t[1]-'0'); rt=(t[3]-'0')*10+(t[4]-'0'); asr=rs-rt; if(asr&lt;0)asr+=60,asl--; *类似高精的借位 asl+=ls-lt; | if(asl&lt;0)asl+=24; &lt;---V 同上&#125;void print()&#123; if(asl&lt;10)cout&lt;&lt;"0"&lt;&lt;asl; *特判打印前导0 else cout&lt;&lt;asl; | cout&lt;&lt;":"; | if(asr&lt;10)cout&lt;&lt;"0"&lt;&lt;asr; &lt;---V同上 else cout&lt;&lt;asr; &#125;int main()&#123; doit(); print(); return 0;&#125; 谢谢支持~]]></content>
-      <categories>
-        <category>题解</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[text]]></title>
-    <url>%2F2019%2F02%2F01%2Ftext%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
-    <title><![CDATA[[LuoGu]P5116 [USACO18DEC]Mixing Milk]]></title>
-    <url>%2F2019%2F01%2F24%2FLuoGu-P5116-USACO18DEC-Mixing-Milk%2F</url>
-    <content type="text"><![CDATA[[LuoGu]P5116 [USACO18DEC]Mixing Milk 看到题解中没有dfs的，这里写一篇dfs的题解其实没必要这么麻烦，就算是一次dfs练习吧 Code1234567891011121314151617#include&lt;bits/stdc++.h&gt;#define ll long longusing namespace std;int A,B,C,a,b,c;inline void dfs(int a,int b,int c,int time)&#123; if(!time)&#123;printf("%d\n%d\n%d\n",a,b,c);return ;&#125; if(time%3==1)dfs(max(0,a-min(a,B-b)),min(b+a,B),c,time-1); //a倒给b else if(time%3==0)dfs(a,max(0,b-min(b,C-c)),min(c+b,C),time-1); //b倒给c else if(time%3==2)dfs(min(a+c,A),b,max(0,c-min(c,A-a)),time-1); //c倒给a&#125;int main()&#123; scanf("%d%d%d%d%d%d",&amp;A,&amp;a,&amp;B,&amp;b,&amp;C,&amp;c); dfs(a,b,c,100); return 0;&#125; 上述代码还可以优化，这里就懒得写了qwq]]></content>
       <categories>
         <category>题解</category>
       </categories>
