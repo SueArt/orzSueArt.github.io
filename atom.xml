@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://SueArt.github.io/"/>
-  <updated>2019-01-24T09:31:04.100Z</updated>
+  <updated>2019-02-01T03:43:28.930Z</updated>
   <id>https://SueArt.github.io/</id>
   
   <author>
@@ -17,33 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>[LuoGu]CF387A [George and Sleep]</title>
-    <link href="https://SueArt.github.io/2019/01/24/LuoGu-CF387A-George-and-Sleep/"/>
-    <id>https://SueArt.github.io/2019/01/24/LuoGu-CF387A-George-and-Sleep/</id>
-    <published>2019-01-24T09:28:18.000Z</published>
-    <updated>2019-01-24T09:31:04.100Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problemnew/show/CF387A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[LuoGu]CF387A [George and Sleep]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;一道简单的模拟
-      
-    
-    </summary>
-    
-      <category term="题解" scheme="https://SueArt.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>[LuoGu]P5116 [USACO18DEC]Mixing Milk</title>
-    <link href="https://SueArt.github.io/2019/01/24/LuoGu-P5116-USACO18DEC-Mixing-Milk/"/>
-    <id>https://SueArt.github.io/2019/01/24/LuoGu-P5116-USACO18DEC-Mixing-Milk/</id>
-    <published>2019-01-24T09:23:13.000Z</published>
-    <updated>2019-01-24T09:26:05.811Z</updated>
+    <link href="https://SueArt.github.io/2019/02/01/LuoGu-P5116-USACO18DEC-Mixing-Milk-1/"/>
+    <id>https://SueArt.github.io/2019/02/01/LuoGu-P5116-USACO18DEC-Mixing-Milk-1/</id>
+    <published>2019-02-01T03:43:11.000Z</published>
+    <updated>2019-02-01T03:43:28.930Z</updated>
     
     <summary type="html">
     
@@ -62,10 +40,10 @@
   
   <entry>
     <title>[LuoGu]P5018 对称二叉树</title>
-    <link href="https://SueArt.github.io/2019/01/24/LuoGu-P5018-%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
-    <id>https://SueArt.github.io/2019/01/24/LuoGu-P5018-对称二叉树/</id>
-    <published>2019-01-24T06:18:34.000Z</published>
-    <updated>2019-01-24T06:58:06.269Z</updated>
+    <link href="https://SueArt.github.io/2019/02/01/LuoGu-P5018-%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    <id>https://SueArt.github.io/2019/02/01/LuoGu-P5018-对称二叉树/</id>
+    <published>2019-01-31T18:27:05.000Z</published>
+    <updated>2019-01-31T18:27:58.526Z</updated>
     
     <summary type="html">
     
@@ -73,6 +51,64 @@
       
         &lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problemnew/show/P5018&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[LuoGu]P5018 对称二叉树&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Solution&quot;&gt;&lt;a href
+      
+    
+    </summary>
+    
+      <category term="题解" scheme="https://SueArt.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[LuoGu]CF387A [George and Sleep]</title>
+    <link href="https://SueArt.github.io/2019/02/01/LuoGu-CF387A-George-and-Sleep/"/>
+    <id>https://SueArt.github.io/2019/02/01/LuoGu-CF387A-George-and-Sleep/</id>
+    <published>2019-01-31T18:21:27.000Z</published>
+    <updated>2019-01-31T18:25:11.765Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problemnew/show/CF387A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[LuoGu]CF387A [George and Sleep]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一道简单的模拟
+      
+    
+    </summary>
+    
+      <category term="题解" scheme="https://SueArt.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>text</title>
+    <link href="https://SueArt.github.io/2019/02/01/text/"/>
+    <id>https://SueArt.github.io/2019/02/01/text/</id>
+    <published>2019-01-31T18:16:23.000Z</published>
+    <updated>2019-01-31T18:16:23.346Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[LuoGu]P5116 [USACO18DEC]Mixing Milk</title>
+    <link href="https://SueArt.github.io/2019/01/24/LuoGu-P5116-USACO18DEC-Mixing-Milk/"/>
+    <id>https://SueArt.github.io/2019/01/24/LuoGu-P5116-USACO18DEC-Mixing-Milk/</id>
+    <published>2019-01-24T09:23:13.000Z</published>
+    <updated>2019-01-24T09:26:05.811Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problemnew/show/P5116&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;[LuoGu]P5116 [USACO18DEC]Mixing Milk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;看到题解
       
     
     </summary>
